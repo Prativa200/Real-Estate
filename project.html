@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="project.css">
+  <title>Real  Estate</title>
+
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <h4><i class="bi bi-house-door-fill"></i>House</h4>
+      <div class="right_bx">
+        <ul  class="nav_links">
+          <li class="link" >
+            <a href="#" class="link_a">support</a>
+          </li>
+          <li class="link" >
+            <a href="#" class="link_a"><i class="bi bi-globe"></i> language</a>
+          </li>
+          <li class="link" >
+            <a href="#" class="link_a">List Your Property</a>
+          </li>
+        </ul>
+        <div class="icons">
+          <i class="bi bi-app-indicator"></i>
+          <i class="bi bi-person"></i>
+        </div>
+       </div>
+    </nav>
+    <!--Morder house wala section-->
+    <div class="content">
+      <div class="contain">
+        <h1 class="heading">Morden <br> house</h1>
+        <p class="heads">3  bedrooms, 1 kitchen ,2        bathrooms</p>
+        <div class="weather">
+          <h6 class="heading-6">
+            42 &#176;C <span class="span"> Very hot</span></h6>
+        </div>
+        <div class="btn">
+          <i id="btn_left" class="bi bi-arrow-left"  ></i>
+          <i id="btn_right" class="bi bi-arrow-right" ></i>
+        </div>
+
+        <div class="image">
+          <div class="card">
+            <img class="img1" src="https://plus.unsplash.com/premium_photo-1683888725060-684307792076?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdXNlJTIwd2l0aCUyMHBvb2x8ZW58MHx8MHx8fDA%3D" alt="img1">
+
+          </div>
+          <div class="card">
+            <img class="img1"  src="https://media.istockphoto.com/id/2161329503/photo/sunshine-entry-into-the-retro-living-space.webp?a=1&b=1&s=612x612&w=0&k=20&c=Kn9m5rV8RDkTgd-6ehcCWhTKXjc4_0cKXZLWgBxfrfw=" alt="img2">
+          </div>
+          <div class="card">
+            <img class="img1"  src="https://images.unsplash.com/photo-1502005097973-6a7082348e28?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdXNlJTIwa2l0Y2hlbnxlbnwwfHwwfHx8MA%3D%3D" alt="img3">
+           <h6 id="h6" class="headss">+6</h6>
+
+          </div>
+        </div>
+      </div>
+      <div class="chosse_box">
+        <div class="stay_box">
+          <button class="btn_bt">
+            <i class="bi bi-house-door-fill"></i>
+          </button>
+          <button class="btn_bt"><i class="bi bi-star-fill"></i>
+          </button>
+          <button class="btn_bt"><i class="bi bi-tv-fill"></i>
+          </button>
+        </div>
+        <div class="select_box">
+          <div class="card_box">
+            <h5 class="heading_text">City</h5>
+            <input   type="text" value="Kathmandu">
+            <input type="text" value="Nepal" id="nepal">
+          </div>
+          <div class="card_box">
+            <h5 class="heading_text">People</h5>
+            <input type="text" value="4 People" id="people">
+            <button id="people_less">Less</button>
+            <button id="people_more">More</button>
+
+          </div>
+          <div class="card_box">
+            <div class="left_box">
+              <h5 class="heading1" >CHECK IN</h5>
+              <div class="date">
+                <h3 id="checkin_data" class="heading_texts">Sat ,15 Jan</h3>
+                <input type="date" id="checkin" value="2024-09-01">
+                <i class="bi bi-calendar2-week-fill"></i>
+              </div>
+            
+          
+              <button class="btn_less" id="checkin_less">Less</button>
+              <button class="btn_more" id="checkin_more">More</button>
+            </div>
+            <div class="right_box">
+              <h5 class="check" >CHECK OUT</h5>
+              <div class="date">
+                <h3 id="checkout_data" class="heading_texts">Sun ,05 May</h3>
+                <input id="checkout" type="date" value="2024-09-01"  >
+                <i class="bi bi-calendar2-week-fill"></i>
+              </div>
+                <button id="checkout_less" class="btn_less">Less</button>
+                <button id="checkout_more" class="btn_more">More</button>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="map">
+    <div class="adress_box">
+      <div class="location_box">
+        <h6 >Location</h6>
+        <h4 >Kathmandu House</h4>
+      </div>
+      <i class="bi bi-fullscreen-exit"></i>
+
+    </div>
+        
+   <iframe src="https://my.atlist.com/map/4a3985bb-23bd-40f9-a724-b677df200f23/?share=true" allow="geolocation 'self' https://my.atlist.com" width="100%" height="400px" loading="lazy" frameborder="0" scrolling="no" allowfullscreen id="atlist-embed"></iframe>
+  </div>
+
+  <div class="home">
+    <div class="title_button">
+      <h2>Explore more house</h2>
+      <button>Sell All<i class="bi bi-arrow-right"></i></button>
+    </div>
+
+     <div class="home_box">
+         <!--1 img-->
+        <div class="cards">
+          <img class="images" src="https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fGhvdXNlJTIwd2l0aCUyMHBvb2x8ZW58MHx8MHx8fDA%3D" >
+         <div class="contents">
+            <i class="bi bi-balloon-heart"></i>
+            <div class="cont">
+             <h4 class="heading-head">Kathmandu</h4>
+             <p class="text1">Nepal</p> 
+            </div>
+          </div>
+        </div>
+              <!--2 img-->
+
+        <div class="cards">
+          <img class="images" src="https://images.unsplash.com/photo-1613977257365-aaae5a9817ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGhvdXNlJTIwd2l0aCUyMHBvb2x8ZW58MHx8MHx8fDA%3D" >
+          <div class="contents">
+            <i class="bi bi-balloon-heart"></i>
+            <div class="cont">
+              <h4 class="heading-head">Dang</h4>
+              <p class="text1">Nepal</p>  
+            </div>
+          </div>
+          </div>
+               <!--3 img-->
+
+          <div class="cards">
+            <img class="images" src="https://images.unsplash.com/photo-1522050212171-61b01dd24579?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D" >
+            <div class="contents">
+              <i class="bi bi-balloon-heart"></i>
+              <div class="cont">
+                <h4 class="heading-head">Butwal</h4>
+               <p class="text1">Nepal</p> 
+                
+              </div>
+            </div> 
+          </div>
+               <!--4 img-->
+
+            <div class="cards">
+              <img class="images" src="https://images.unsplash.com/photo-1560026301-88340cf16be7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHxob3VzZSUyMHdpdGglMjBncmFkZW58ZW58MHx8MHx8fDA%3D" >
+              <div class="contents">
+                <i class="bi bi-balloon-heart"></i>
+                <div class="cont">
+                  <h4 class="heading-head">Pokhara</h4>
+                  <p class="text1">Nepal</p> 
+                </div>
+              </div> 
+              </div>
+                 <!--5 img-->
+
+
+              <div class="cards">
+                <img class="images" src="https://images.unsplash.com/photo-1628012209120-d9db7abf7eab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnxHbXFrVDBUYkctd3x8ZW58MHx8fHx8" >
+                <div class="contents">
+                  <i class="bi bi-balloon-heart"></i>
+                  <div class="cont">
+                   <h4 class="heading-head">Lalitpur</h4>
+               <p class="text1">Nepal</p>
+                  </div>
+                </div>
+              </div>
+
+        
+
+
+       </div>
+    </div>
+  </div>
+<!-- section -->
+  <section class="section">
+    <h2 class="heading-fat">
+      Our Service
+    </h2>
+    <div class="box">
+      <div class="img_box">
+        <img class="dean" src="https://media.istockphoto.com/id/147285187/photo/large-white-and-brown-british-tudor-house.jpg?s=612x612&w=0&k=20&c=4WcIFVDijbJNxwV_QwWo1I7nVZVvrxxu4HU9qZDTxhk=">
+      </div>
+
+      <div class="cont_box">
+        <h6 class="heading6"><span class="span1
+          ">OUR SERVICE</span></h6>
+        <h1 class="main-heading">Comfort is our <hr> Top Priority for you</h1>
+        <p class="text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta sapiente quod magni vitae mollitia, hic temporibus dolore totam error, nemo delectus eos? A reprehenderit amet minus, deleniti dolore fugit nulla.</p>
+        <ul class="listed">
+          <li class="list-box"> Pranium natinal marketing</li>
+          <li class="list-box">Manged Viowing </li>
+          <li class="list-box"> Frco, no obligation valuctions</li>
+          <li class="list-box">Local area knowledge</li>
+
+
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <h4><i class="bi bi-house-door-fill"></i>House</h4>
+
+  </footer>
+
+
+   <script src="script.js"></script>
+
+</body>
+</html>
